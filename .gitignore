@@ -1,0 +1,10 @@
+venv/*
+airflow/extraction/configuration.conf
+airflow/logs/*
+airflow/plugins/*
+.env
+terraform/*
+!/terraform/main.tf
+!/terraform/variable.tf
+!/terraform/output.tf
+__pycache__/
